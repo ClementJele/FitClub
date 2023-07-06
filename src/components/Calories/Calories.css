@@ -1,0 +1,34 @@
+.calories{
+    display: flex;
+    flex-direction: row;
+    width: 8rem;
+    top: 36rem;
+    right: 30rem;
+    background-color: rgb(37, 37, 40);
+    border-radius: 2rem;
+    position: absolute;
+    height: 7rem;
+    width: fit-content;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.calories>.CaloriesInfo>span:nth-last-of-type(2){
+    color:dimgray;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    
+}
+
+.calories>.CaloriesInfo>span:nth-last-of-type(1){
+    color: white;
+    font-size: 1.5rem;
+}
+
+.calories>.CaloriesInfo{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}

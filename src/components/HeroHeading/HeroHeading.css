@@ -1,0 +1,18 @@
+.HeroHeading{
+    gap: 1.5rem;
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: bold;
+    text-overflow: inherit;
+    color: aliceblue;
+}
+
+.HeroHeading>div:nth-of-type(3){
+    font-weight: 230;
+    font-size:1.5rem;
+    letter-spacing: 1.4px;
+    width: 90%;
+}

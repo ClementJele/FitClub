@@ -1,0 +1,12 @@
+.Figures{
+    display: flex;
+    flex-direction:row;
+    gap: 1rem;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.Figures>div{
+    display: flex;
+    flex-direction: column;
+}

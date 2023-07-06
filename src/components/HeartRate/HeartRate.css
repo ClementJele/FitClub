@@ -1,0 +1,31 @@
+.Heart-Rate{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color:rgb(37, 37, 40);
+    padding: 1rem;
+    align-items: start;
+    border-radius: 1rem;
+    position: absolute;
+    right: 3rem;
+    top: 7rem;
+    
+}
+
+.Heart-Rate>img{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.Heart-Rate>span:nth-of-type(1){
+    color:dimgray;
+    font-weight: 500;
+}
+
+.Heart-Rate>span:nth-of-type(2){
+    color:white;
+    font-weight: bold;
+}
+

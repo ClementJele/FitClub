@@ -1,0 +1,15 @@
+.Hero-image{
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+    z-index: 2;
+}
+
+.Hero-image_back{
+    position: absolute;
+    top: 4rem;
+    right: 17.5rem;
+    height: 32rem;
+    z-index: 1;
+}
