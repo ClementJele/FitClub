@@ -1,0 +1,68 @@
+.reasonLeftParentDiv {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: stretch; /* Add this line */
+    margin: 1rem;
+    
+  }
+  
+  .reasonleftchild {
+    flex: 0 0 15rem;
+    margin-right: 1.5rem;
+  }
+
+  .reasonleftchild > .Image1 {
+    width: 15rem;
+    height: 48rem;
+  }
+
+  
+  .reasonrightchild {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Adjusted flex value */
+    margin-bottom: 1rem;
+  }
+  
+  .reasonrightchild > .child2 {
+    flex: 1; /* Adjusted flex value */
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    
+    
+  }
+  
+  .reasonrightchild > .childright1 {
+    width: 14rem;
+    height: 31rem;
+  }
+  
+  
+  .reasonrightchild > .childright1,
+  .reasonrightchild > .childright2 {
+    margin-bottom: 2rem;
+  }
+  
+  .reasonrightchild > .child3 {
+    display: flex;
+    margin-right: 2rem;
+  }
+  
+  .reasonrightchild >.child3>.child3leftchild {
+    margin-right: 1.4rem;
+    flex: 0 0 8rem;
+    margin-bottom: 0;
+    height: 100%; /* Updated height value */
+  }
+
+
+  .reasonrightchild > .child3 :nth-last-of-type(1){
+    width: 18.5rem;
+    height: 15.3rem;
+  }
+  
+
+
+  
+  
+  

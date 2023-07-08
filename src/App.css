@@ -58,3 +58,42 @@
   cursor: pointer;
 }
 
+.programHeadingStyle{
+  font-weight: bold;
+  font-size: medium;
+  
+}
+
+.programDetailStyle{
+  font-size: medium;
+  font-weight: 300;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.programButtonStyle{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.programImageStyle{
+  width: 8px 10px;
+}
+.RightReasonsQualitiesStyle{
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 1.3rem;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #D9D9D9;
+  margin-bottom: 2rem;
+}
+
+.RightReasonsQualitiesStylePicture{
+  width: 2rem;
+  height: 2rem;
+  padding-right: 1rem;
+}
+

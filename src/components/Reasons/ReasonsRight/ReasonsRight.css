@@ -1,0 +1,35 @@
+.RightReasonsHeading > .Right-Heading{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-right: 9rem;
+    margin-bottom: 2rem;
+    
+}
+
+.RightReasonsHeading > .RightReasonsQualitiesStyle{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: start;
+    
+}
+
+.Partnerships{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: darkgrey;
+    margin-bottom: 2rem;
+}
+
+.partnerBrands{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+

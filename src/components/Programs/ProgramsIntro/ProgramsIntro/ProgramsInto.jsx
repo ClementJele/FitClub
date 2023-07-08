@@ -4,7 +4,7 @@ import './ProgramsInto.css'
 
 const Programsintro = () => {
     return (
-        <div className="programs">
+        <div className="programsintro">
             <span className="stoke-text">Explore </span>
             <span className="stoke">Our </span>
             <span className="stoke-text">Programs</span>

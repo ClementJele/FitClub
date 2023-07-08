@@ -1,5 +1,7 @@
 .programs{
+    padding: 1rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 4rem;
     
 }
