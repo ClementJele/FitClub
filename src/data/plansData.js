@@ -11,10 +11,10 @@ export const plansData = [
       </svg>
     ),
     name: "BASIC PLAN",
-    price: "25",
+    price: "R 1500",
     features: [
-      "2 hours of excercises",
-      "Free consultaion to coaches",
+      "2 hours of excercises ",
+      "Free consultationn to coaches ",
       "Access to The Community",
     ],
   },
@@ -30,11 +30,11 @@ export const plansData = [
       </svg>
     ),
     name: "PREMIUM PLAN",
-    price: "30",
+    price: "R 3000",
     features: [
-      "5 hour of excercises",
-      "Free consultaion of Coaches",
-      "Accessto minibar",
+      "5 hour of excercises ",
+      "Free consultation of Coaches ",
+      "Access to minibar",
     ],
   },
   {
@@ -49,10 +49,10 @@ export const plansData = [
       </svg>
     ),
     name: "PRO PLAN",
-    price: "45",
+    price: "R 4500",
     features: [
-      "8 hours of excercises",
-      "Consultation of Private Coach",
+      "8 hours of excercises ",
+      "Consultation of Private Coach ",
       "Free Fitness Merchandises",
     ],
   },

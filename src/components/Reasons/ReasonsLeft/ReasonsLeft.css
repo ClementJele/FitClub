@@ -2,7 +2,7 @@
     display:flex;
     flex-wrap: wrap;
     align-items: stretch; /* Add this line */
-    margin: 1rem;
+    
     
   }
   
@@ -12,7 +12,7 @@
   }
 
   .reasonleftchild > .Image1 {
-    width: 15rem;
+    width: 16rem;
     height: 48rem;
   }
 

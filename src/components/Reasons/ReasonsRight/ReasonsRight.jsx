@@ -25,7 +25,7 @@ const ReasonsRight = () => {
 
                 <div>
                     <img src={Tick} alt="" className="RightReasonsQualitiesStylePicture"/>
-                    <span>smart training and equipment</span></div>
+                    <span>smart training equipment</span></div>
 
                 <div>
                     <img src={Tick} alt="" className="RightReasonsQualitiesStylePicture" />

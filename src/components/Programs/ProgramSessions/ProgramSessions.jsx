@@ -17,7 +17,7 @@ const ProgramSessions = () => {
                     <span className="programDetailStyle">{program.details}</span>
                     <div className="programButtonStyle">
                         <span>Join Now</span>
-                        <img src={RightArrow} alt="" className="programImageStyle" />
+                        <img src={RightArrow} alt="" className="programSeeMoreArrow" />
                     </div>
                 </div> ))}
             </div>
