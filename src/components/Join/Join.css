@@ -1,0 +1,55 @@
+.FinalJoin{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex: 2 1;
+    
+}
+
+.FinalJoinLeft{
+    display: flex;
+    gap: 1.5rem;
+    flex: 2;
+     
+}
+
+.FinalJoinLeft > :nth-child(1){
+    font-size: 5rem;
+    font-weight: bolder;
+    color:aqua;
+}
+
+.FinalJoinLeft > :nth-child(2){
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.FinalJoinRight{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.emailC{
+    display: flex;
+    gap: 2rem;
+    background-color: rgb(197, 197, 202);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.emailC > input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+}
+
+.emailC > button{
+    border: chartreuse;
+    border-radius: 0.4rem;
+    font-weight: 500;
+    background-color:rgb(247, 245, 242);
+    
+    
+}

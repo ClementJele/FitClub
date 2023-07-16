@@ -1,0 +1,33 @@
+.FooterContainer{
+   
+    margin: 0rem;
+    flex-direction: column;
+    position: relative;
+   
+    
+}
+
+.Footer{
+    padding: 2rem 2rem;
+    gap: 4rem;
+    align-items: center;
+    justify-content:center;
+    height: 15rem;
+}
+
+.socialmedia{
+    
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+}
+
+.socialmedia > img{
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+
+.FooterContainer > hr{
+    border: 2px solid white;
+}

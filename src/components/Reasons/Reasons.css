@@ -1,0 +1,18 @@
+.ReasonsParent{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin:3rem
+    
+}
+
+.ReasonsParent > .leftreason{
+    flex: 2.5;
+}
+
+.ReasonsParent > .reasonright{
+    flex: 1
+}
+

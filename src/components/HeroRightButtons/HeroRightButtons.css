@@ -1,0 +1,13 @@
+.HeroRight-Buttons{
+    position: absolute;
+    right: 3rem;
+    top:1rem;
+}
+
+.HeroRight-Buttons>.ButtonTextStyle{
+    display: flex;
+    background-color: white;
+    border-radius: 1rem;
+    width: 6rem;
+}
+

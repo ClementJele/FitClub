@@ -1,0 +1,20 @@
+.subscription{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media  screen and (max-width: 768px) 
+{
+    .subIntro {
+        scroll-margin-right: 12rem;
+        position: relative;
+        transform: scale(0.3);
+        
+    }
+
+    .subscription{
+        flex-direction: column;
+    }
+}

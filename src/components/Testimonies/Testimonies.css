@@ -1,0 +1,79 @@
+.Testimony{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin: 1rem;
+}
+
+.Testimony-left{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+
+.Testimony-right{
+    padding: 1rem;
+    flex: 1;
+    position: relative;
+}
+.Testimony-right > .img{
+    height: 1rem;
+    width: 1rem;
+}
+
+.Testimony-left>:nth-child(4){
+    color: white;
+    font-size: 1.4rem;
+    font-weight:400;
+    padding: 1.3rem;
+    background:rgb(54, 44, 54);
+    border-radius: 2rem;
+}
+
+.Testimony-right > img{
+    position: absolute;
+    width: 19rem;
+    height: 22rem;
+    object-fit: cover;
+    top: 2.5rem;
+}
+.Testimony-right>:nth-child(1){
+    position: absolute;
+    width: 19rem;
+    height: 22rem;
+    border: 3px solid rgb(83, 231, 218);
+    background-color: transparent;
+    right: 6rem;
+    top: 0.5rem;
+
+}
+
+.Testimony-right>:nth-child(2){
+    position: absolute;
+    width: 19rem;
+    height: 22rem;
+    background-color:lavenderblush;
+    right: 8rem;
+    top: 4rem;
+
+}
+
+.arrows{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    top: 26rem;
+    right: 2rem;
+    left: 8rem;
+}
+
+.arrows > :nth-child(2){
+    width: 2.9rem;
+    left: 20rem;
+}
+
+
+

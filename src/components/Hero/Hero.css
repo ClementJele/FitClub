@@ -1,0 +1,137 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+    
+   
+}
+
+.left-h{
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+}
+
+.right-h{
+    flex: 1;
+    padding: 1rem;
+    position:relative;
+    background-color:  rgb(186, 135, 39);;
+}
+
+.hero-blur{
+    height: 22rem;
+    width: 18rem;
+}
+
+@media  screen and (max-width: 768px) 
+{
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero-blur{
+        width: 14rem;
+    }
+
+    .Advert{
+      margin-top: 0; 
+      font-size: small;
+      align-self: center; 
+      transform: scale(0.96);
+      margin-bottom: 0;
+    }
+
+    .HeroHeading > :nth-child(1){
+        
+        font-size:xx-large;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .HeroHeading > :nth-child(2){
+        
+        font-size:xx-large;
+        align-items: center;
+        justify-content: center;
+    }
+    .HeroHeading > :nth-child(3){
+        
+        font-size:xx-large;
+        align-items: center;
+        justify-content: center;
+    }
+    .Figures{
+        justify-content: center;
+        transform: scale(0.9);
+    }
+
+    .Figures > div > span:nth-child(1){
+        font-size:x-large;
+        
+    }
+
+    .Figures > div > span:nth-child(2){
+        font-size:small;
+         
+    }
+
+    .Hero-buttons{
+        justify-content: center;
+    }
+
+    .right-h{
+        position: relative;
+        background: none;
+        transform: scale(0.8);
+        right: 0;
+        left: 2.8rem;
+        top: 0px;
+        margin-bottom: 14rem;
+        margin-right: 2rem;
+    }
+
+    .Heart-Rate{
+        position: relative;
+       
+        top: 2rem;
+        left:7rem;
+        right: 4rem;
+        transform: scale(0.9);
+    }
+
+    .calories{
+        position: relative;
+        left: 1rem;
+        right: 4rem;
+        transform: scale(0.0);
+        top: 4rem;
+    }
+
+    .Hero-image{
+        
+        left: -9rem;
+        position: relative;
+        width: 8rem;
+        height:19rem;
+        align-self: center;
+        transform: scale(0.8);
+    }
+
+    .Hero-image_back{
+        left: -10rem;
+        transform: scale(0.5);
+        
+    }
+
+    
+
+    
+
+
+}
+
+
